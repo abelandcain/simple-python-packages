@@ -2,7 +2,7 @@
 Repo of small python packages<br>
 
 **Packages Done So-Far:**
-- **loadinganim :** A simple terminal loading message
-- **print-table:** A simple package to print responsive tables
-- **printplus:** Simple package to print text to terminal with colors and alignment
+- ![**loadinganim :**](https://github.com/adityasm1238/simple-python-packages/tree/master/Loading-Python) A simple terminal loading message
+- ![**print-table:**](https://github.com/adityasm1238/simple-python-packages/tree/master/Tables-Python) A simple package to print responsive tables
+- ![**printplus:**](https://github.com/adityasm1238/simple-python-packages/tree/master/PrintPlus) Simple package to print text to terminal with colors and alignment
 
