@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: renamelocker
+Version: 1.1
+Summary: Simple package to rename files with extension to hide videos and images
+Home-page: UNKNOWN
+Author: noidea
+Author-email: noidea1238@gmail.com
+License: UNKNOWN
+Description: # renamelocker
+        
+        **Simple package to rename files with extension to hide videos and images**
+        
+        
+        **Usage:**
+        
+        Navigate to the folder containing files you whisth to rename, then type **renamelocker** comand in comand prompt
+        
+        
+        **Try:**
+        >pip3 install renamelocker
+               
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

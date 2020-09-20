@@ -1,0 +1,3 @@
+[console_scripts]
+renamelocker = renamelocker.app:main
+
