@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="storekeys",
-    version="1.6",
+    version="1.7.1",
     author="noidea",
     author_email="noidea1238@gmail.com",
     description="Simple package to store values at a single place",

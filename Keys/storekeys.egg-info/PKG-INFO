@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: storekeys
-Version: 1.6
+Version: 1.7.1
 Summary: Simple package to store values at a single place
 Home-page: UNKNOWN
 Author: noidea
@@ -11,10 +11,10 @@ Description: # storekeys <br>
         **Simple package to store values at a single place** 
         
         **Store Keys**<br><br>
-        Navigate to the folder you want to store the key file you whisth to rename, then type **keys** command in command prompt
+        Navigate to the folder you want to store the key file you whisth to rename, then type **storekeys** command in command prompt
         
         
-            usage: keys [-h] [--delete] [--noprint] [--showkeys] fileName
+            usage: storekeys [-h] [--delete] [--noprint] [--showkeys] fileName
         
             Store important keys and values together in a keys file.
         
@@ -30,12 +30,12 @@ Description: # storekeys <br>
             
         **Load Keys**<br>
         
-            from keys import LoadKeys
+            from storekeys import LoadKeys
         
             keys = LoadKeys('fileName').get_keys()
         
         **Try:**
-        >pip3 install keys
+        >pip3 install storekeys
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License

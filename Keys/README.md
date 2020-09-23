@@ -27,4 +27,4 @@ Navigate to the folder you want to store the key file you whisth to rename, then
     keys = LoadKeys('fileName').get_keys()
 
 **Try:**
->pip3 install keys
+>pip3 install storekeys

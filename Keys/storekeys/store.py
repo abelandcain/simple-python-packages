@@ -4,7 +4,7 @@ from print_table import Table
 from .errors import InvalidFileName,FileNotExists,ValueNotProvided,KeyNotProvided
 from .load import LoadKeys
 import base64
-#resolved a small error2
+#resolved a small error4
 class Store:
     def store_key(self,fileName,key,value):
         if(len(fileName)==0):
