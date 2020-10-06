@@ -6,7 +6,7 @@ class PrintPlus:
         self.fillBlankWith = ' '
         self.endWith = '\n'
         self.align = 0
-        self.colors = {'VIOLET':'\033[95m','BLUE':'\033[94m','GREEN':'\033[92m','YELLOW':'\033[93m','RED':'\033[91m','ENDC':'\033[0m','BOLD':'\033[1m','UNDERLINE':'\033[4m','HIGHLIGHT':'\033[1;30;47m'}
+        self.colors = {'VIOLET':'\033[95m','BLUE':'\033[94m','GREEN':'\033[92m','YELLOW':'\033[93m','RED':'\033[91m','BROWN':'\033[5;30;40m','ENDC':'\033[0m','BOLD':'\033[1m','UNDERLINE':'\033[4m','HIGHLIGHT':'\033[1;30;47m'}
 
     def getTerminalSize(self):
         return shutil.get_terminal_size((80,80)).columns
@@ -100,7 +100,11 @@ class PrintPlus:
     def right(self):
         self.align=2
         return self
-
+    
+     def brown(self):
+        self.message = self.getColored(self.message,self.colors['BROWN'])
+        return self
+    
     def blanks(self,char:chr = ' '):
         self.fillBlankWith = str(char)
         return self
